@@ -1,19 +1,23 @@
 ---
 title: "ITSL Personal notes"
-output: html_document
+output: 
+  bookdown::html_document2:
 editor_options:
   chunk_output_type: console
+  
+toc: false
  
 ---
 
-```{r}
+```{r,echo=F}
 library("tidyverse")
 library("tidymodels")
+
+
 ```
 
 
-```{r Chapter 1}
-mtcars |> 
-  filter(am==1)
+```{r Chapter 1,echo=F}
+\section
 ```
 
