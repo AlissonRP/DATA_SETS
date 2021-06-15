@@ -1,0 +1,19 @@
+---
+title: "ITSL Personal notes"
+output: html_document
+editor_options:
+  chunk_output_type: console
+ 
+---
+
+```{r}
+library("tidyverse")
+library("tidymodels")
+```
+
+
+```{r Chapter 1}
+mtcars |> 
+  filter(am==1)
+```
+
